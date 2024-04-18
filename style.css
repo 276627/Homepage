@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.9107843821122199) 25%, rgba(70,210,246,1) 44%, rgba(69,252,78,1) 65%, rgba(252,69,214,0.47941183309261204) 84%); 
+}
+
+/*
+=================================================
+SEARCH
+=================================================
+*/
+form{
+    width:100%;
+    max-width:600px;
+    margin:0 auto;
+ }
+ input{
+    width:100%;
+    font-size:32px;
+    margin:5px 0;
+    float:left;
+    border:none;
+    padding:10px;
+    outline:none;
+ }
+ .search-bar{
+    width:85%;
+    border-radius: 25%;
+ }
+ .submit-button{
+    width:15%;
+    background:#0313dd;
+    color:#0be8d6;
+ }
+ 
+ /*
+=================================================
+BOOKMARKS
+=================================================
+*/
+.bookmarks{
+    padding:30px;
+    clear:both;
+ }
+ .bookmarks i{
+    font-size:42px;
+    margin:0 20px;
+    color:#dd4f03;
+    transition:.15s;
+    vertical-align: top;
+ }
+ .bookmarks i:hover{
+    font-size:72px;
+    position:relative;
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align:center;
+    font-family: sans-serif;
+}
+ }
+ h1{
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+@media only screen and (max-width: 900px) {
+    h1{
+        margin-top:50px;
+        font-size:100px;
+    }
+ }
+ 
+ 
+ @media only screen and (max-width: 600px) {
+    h1{
+        margin-top:50px;
+        font-size:75px;
+    }
+    .bookmarks i{
+    margin:0 15px;
+    }
+ }
+ #calc{
+    transition: .2s;
+    opacity: 0;
+ }
+ .calculator{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+ }
+ *{
+    box-sizing: border-box;
+ }
+ body{
+    text-align: center;
+    font-family: sans-serif;
+ }
