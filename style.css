@@ -106,3 +106,32 @@ body{
     text-align: center;
     font-family: sans-serif;
  }
+ #note{
+   width:250px;
+   height:250px;
+   resize: none;
+   background:#F3F19D;
+   padding:15px;
+   border:none;
+   position: absolute;
+   bottom:50px;
+   left:50px;
+   font-family:sans-serif;
+  }
+  @media only screen and (max-width: 900px) {
+   h1{
+       margin-top:50px;
+       font-size:100px;
+   }
+}
+
+
+@media only screen and (max-width: 600px) {
+   h1{
+       margin-top:50px;
+       font-size:75px;
+   }
+   .bookmarks i{
+   margin:0 15px;
+   }
+}

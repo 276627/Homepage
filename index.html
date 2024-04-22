@@ -9,9 +9,12 @@
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 <body onload="startTime()">
+
+    <div id="clock"></div>
     <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="Glenview" data-label_2="WEATHER" data-icons="Climacons" data-mode="Forecast" data-theme="candy" data-textcolor="#630fd9" data-mooncolor="#cbc3c3" data-cloudcolor="#10e0d6" >Glenview WEATHER</a>
     <script>
     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+    <!-- Cryptocurrency Price Widget --><script>!function(){var e=document.getElementsByTagName("script"),t=e[e.length-1],n=document.createElement("script");function r(){var e=crCryptocoinPriceWidget.init({base:"USD,EUR,CNY,GBP",items:"BTC,ETH,LTC,XMR,DASH",backgroundColor:"FFFFFF",streaming:"1",rounded:"1",boxShadow:"1",border:"1"});t.parentNode.insertBefore(e,t)}n.src="https://co-in.io/widget/pricelist.js?items=BTC%2CETH%2CLTC%2CXMR%2CDASH",n.async=!0,n.readyState?n.onreadystatechange=function(){"loaded"!=n.readyState&&"complete"!=n.readyState||(n.onreadystatechange=null,r())}:n.onload=function(){r()},t.parentNode.insertBefore(n,null)}();</script><a href="https://currencyrate.today/" rel="noopener" target="_blank">CurrencyRate.Today</a><!-- /Cryptocurrency Price Widget -->
     </script>
     <h1> Hi Ray!!</h1>
     <!-- GOOGLE SEARCH -->
@@ -25,6 +28,25 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
         <a href="https://mail.google.com" target="_blank">
                <i class="fas fa-envelope"></i>
         </a>
+        <a href="https://chat.openai.com/" target="_blank">
+            <i class="fas fa-robot"></i>
+        </a>
+        <a href="https://drive.google.com/drive/my-drive" target="_blank">
+            <i class="fab fa-google-drive"></i>
+        </a>
+        <a href="https://publish.twitter.com/#" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.nba.com/" target="_blank">
+            <i class="fas fa-basketball-ball"></i>
+        </a>
+        <a href="https://open.spotify.com/" target="_blank">
+            <i class="fab fa-spotify"></i>
+        </a>
+        <a href="https://earth.google.com/web/@-9.40561956,140.84552918,-4402.21732659a,22256154.29750204d,35y,0h,0t,0r/data=OgMKATA" target="_blank">
+            <i class="fas fa-globe"></i>
+        </a>
+            
         <i class="fas fa-sticky-note" onclick="showNote()"></i>
         <i class="fas fa-calculator" onclick="showCalculator()"></i>
     </section>
@@ -34,6 +56,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
 
 
     <div id="clock"></div>
+
+<textarea placeholder="Write a note..." id="note" onkeyup="autoSave()"></textarea>
+
 
     <script src="myScripts.js" sync defer></script>
 </body>
