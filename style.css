@@ -45,7 +45,7 @@ BOOKMARKS
  .bookmarks i{
     font-size:42px;
     margin:0 20px;
-    color:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.9107843821122199) 25%, rgba(70,210,246,1) 44%, rgba(69,252,78,1) 65%, rgba(252,69,214,0.47941183309261204) 84%); ;
+    color:#dd4f03;
     transition:.15s;
     vertical-align: top;
  }
